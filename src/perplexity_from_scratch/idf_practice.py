@@ -42,17 +42,17 @@ def cal_avgdl(docs):
     avgdl = dlsum / N
     return avgdl
 
-def bm25(query, docs, topk = 3):
+def bm25(query, candidate_docs, corpus_docs, topk = 3):
 
     idf_score = defaultdict(float)
     res = []
     query_token = set(tokenizer(query))
-    avgdl = cal_avgdl(docs)
+    avgdl = cal_avgdl(corpus_docs)
     if avgdl == 0:
         return []
     for token in query_token:
-        idf_score[token] = idf(token, docs)
-    for doc in docs:
+        idf_score[token] = idf(token, corpus_docs)
+    for doc in candidate_docs:
         score = 0
         doc_token = tokenizer(doc['text'])
         doc_len = len(doc_token)

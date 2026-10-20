@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "sentence-transformers>=6.1.0",
+]
 
 [project.scripts]
 perplexity-from-scratch = "perplexity_from_scratch:main"
