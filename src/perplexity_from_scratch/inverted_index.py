@@ -41,7 +41,3 @@ def search(query, index, doc_map, corpus_docs, topk = 3):
 
     return results
 
-print(search("bm25", index, doc_map, documents, topk=3))
-print(search("bm25 search", index, doc_map, documents, topk=2))
-print(search("embeddings", index, doc_map, documents, topk=3))
-print(search("python", index, doc_map, documents, topk=3))
