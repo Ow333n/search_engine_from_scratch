@@ -37,7 +37,7 @@ def search(query, index, doc_map, corpus_docs, topk = 3):
 
     candidate_docs = [doc_map[ids] for ids in candidate_ids]
 
-    results = bm25(query, candidate_docs, documents, topk = topk)
+    results = bm25(query, candidate_docs, corpus_docs, topk = topk)
 
     return results
 
