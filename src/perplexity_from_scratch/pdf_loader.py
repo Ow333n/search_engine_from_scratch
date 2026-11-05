@@ -36,7 +36,3 @@ if __name__ == '__main__':
     print("Source:", documents[0]["source"])
     print("Page:", documents[0]["page"])
     print("Text:", documents[0]["text"][:500])
-    context = build_context(results[:2], doc_map)
-
-    print("\n=== CONTEXT FOR DEEPSEEK ===")
-    print(context)
