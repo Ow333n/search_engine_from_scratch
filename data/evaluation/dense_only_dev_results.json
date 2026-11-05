@@ -1,0 +1,317 @@
+[
+  {
+    "query_id": "Q001",
+    "query": "What is signal processing and what tasks does it perform?",
+    "relevant_ids": [
+      "D21_C1"
+    ],
+    "bm25_ids": [
+      "D21_C1",
+      "D20_C1",
+      "D29_C1",
+      "D30_C1",
+      "D135_C1"
+    ],
+    "dense_ids": [
+      "D21_C1",
+      "D20_C1",
+      "D30_C1",
+      "D28_C1",
+      "D244_C1"
+    ],
+    "bm25_recall": 1.0,
+    "dense_recall": 1.0,
+    "bm25_rr": 1.0,
+    "dense_rr": 1.0
+  },
+  {
+    "query_id": "Q006",
+    "query": "How can a sequence be represented using shifted unit impulses?",
+    "relevant_ids": [
+      "D36_C1"
+    ],
+    "bm25_ids": [
+      "D36_C1",
+      "D297_C1",
+      "D442_C1",
+      "D296_C1",
+      "D434_C1"
+    ],
+    "dense_ids": [
+      "D36_C1",
+      "D32_C1",
+      "D35_C1",
+      "D108_C1",
+      "D115_C1"
+    ],
+    "bm25_recall": 1.0,
+    "dense_recall": 1.0,
+    "bm25_rr": 1.0,
+    "dense_rr": 1.0
+  },
+  {
+    "query_id": "Q011",
+    "query": "What are the additivity and homogeneity conditions for a linear system?",
+    "relevant_ids": [
+      "D46_C1",
+      "D56_C1"
+    ],
+    "bm25_ids": [
+      "D46_C1",
+      "D56_C1",
+      "D100_C1",
+      "D88_C1",
+      "D87_C1"
+    ],
+    "dense_ids": [
+      "D46_C1",
+      "D56_C1",
+      "D87_C1",
+      "D99_C1",
+      "D58_C1"
+    ],
+    "bm25_recall": 1.0,
+    "dense_recall": 1.0,
+    "bm25_rr": 1.0,
+    "dense_rr": 1.0
+  },
+  {
+    "query_id": "Q016",
+    "query": "What impulse-response condition is necessary and sufficient for LTI causality?",
+    "relevant_ids": [
+      "D82_C1",
+      "D91_C1"
+    ],
+    "bm25_ids": [
+      "D272_C1",
+      "D82_C1",
+      "D91_C1",
+      "D427_C1",
+      "D83_C1"
+    ],
+    "dense_ids": [
+      "D82_C1",
+      "D91_C1",
+      "D272_C1",
+      "D427_C1",
+      "D428_C1"
+    ],
+    "bm25_recall": 1.0,
+    "dense_recall": 1.0,
+    "bm25_rr": 0.5,
+    "dense_rr": 1.0
+  },
+  {
+    "query_id": "Q021",
+    "query": "What are the DTFT and inverse DTFT formulas for a discrete-time sequence?",
+    "relevant_ids": [
+      "D108_C1",
+      "D115_C1",
+      "D109_C1",
+      "D116_C1"
+    ],
+    "bm25_ids": [
+      "D415_C1",
+      "D246_C1",
+      "D417_C1",
+      "D446_C1",
+      "D427_C1"
+    ],
+    "dense_ids": [
+      "D108_C1",
+      "D115_C1",
+      "D32_C1",
+      "D341_C1",
+      "D437_C1"
+    ],
+    "bm25_recall": 0.0,
+    "dense_recall": 0.5,
+    "bm25_rr": 0,
+    "dense_rr": 1.0
+  },
+  {
+    "query_id": "Q026",
+    "query": "What is the modulation or frequency-shift property of the DTFT?",
+    "relevant_ids": [
+      "D133_C1",
+      "D141_C1"
+    ],
+    "bm25_ids": [
+      "D417_C1",
+      "D20_C1",
+      "D21_C1",
+      "D277_C1",
+      "D133_C1"
+    ],
+    "dense_ids": [
+      "D10_C1",
+      "D445_C2",
+      "D9_C1",
+      "D17_C1",
+      "D245_C1"
+    ],
+    "bm25_recall": 0.5,
+    "dense_recall": 0.0,
+    "bm25_rr": 0.2,
+    "dense_rr": 0
+  },
+  {
+    "query_id": "Q031",
+    "query": "What is the definition of the z-transform?",
+    "relevant_ids": [
+      "D160_C1",
+      "D170_C1"
+    ],
+    "bm25_ids": [
+      "D427_C1",
+      "D160_C1",
+      "D170_C1",
+      "D161_C1",
+      "D171_C1"
+    ],
+    "dense_ids": [
+      "D160_C1",
+      "D170_C1",
+      "D166_C2",
+      "D177_C2",
+      "D177_C1"
+    ],
+    "bm25_recall": 1.0,
+    "dense_recall": 1.0,
+    "bm25_rr": 0.5,
+    "dense_rr": 1.0
+  },
+  {
+    "query_id": "Q036",
+    "query": "What is the convolution property of the z-transform?",
+    "relevant_ids": [
+      "D193_C1",
+      "D202_C1",
+      "D194_C1",
+      "D203_C1"
+    ],
+    "bm25_ids": [
+      "D427_C1",
+      "D355_C1",
+      "D193_C1",
+      "D202_C1",
+      "D354_C1"
+    ],
+    "dense_ids": [
+      "D194_C1",
+      "D203_C1",
+      "D193_C1",
+      "D202_C1",
+      "D159_C1"
+    ],
+    "bm25_recall": 0.5,
+    "dense_recall": 1.0,
+    "bm25_rr": 0.3333333333333333,
+    "dense_rr": 1.0
+  },
+  {
+    "query_id": "Q041",
+    "query": "What is decimation and when does it cause aliasing?",
+    "relevant_ids": [
+      "D261_C1",
+      "D255_C1"
+    ],
+    "bm25_ids": [
+      "D261_C1",
+      "D323_C1",
+      "D256_C1",
+      "D417_C1",
+      "D427_C1"
+    ],
+    "dense_ids": [
+      "D255_C1",
+      "D261_C1",
+      "D256_C1",
+      "D370_C1",
+      "D371_C1"
+    ],
+    "bm25_recall": 0.5,
+    "dense_recall": 1.0,
+    "bm25_rr": 1.0,
+    "dense_rr": 1.0
+  },
+  {
+    "query_id": "Q046",
+    "query": "What distinguishes minimum-phase systems?",
+    "relevant_ids": [
+      "D297_C1",
+      "D298_C1",
+      "D299_C1"
+    ],
+    "bm25_ids": [
+      "D300_C1",
+      "D299_C1",
+      "D294_C1",
+      "D297_C1",
+      "D432_C1"
+    ],
+    "dense_ids": [
+      "D294_C1",
+      "D300_C1",
+      "D299_C1",
+      "D297_C1",
+      "D302_C1"
+    ],
+    "bm25_recall": 0.6666666666666666,
+    "dense_recall": 0.6666666666666666,
+    "bm25_rr": 0.5,
+    "dense_rr": 0.3333333333333333
+  },
+  {
+    "query_id": "Q051",
+    "query": "How is the DFT obtained by sampling the DTFT of a finite-duration signal?",
+    "relevant_ids": [
+      "D336_C1",
+      "D337_C1",
+      "D338_C1"
+    ],
+    "bm25_ids": [
+      "D272_C1",
+      "D424_C1",
+      "D210_C1",
+      "D223_C1",
+      "D442_C1"
+    ],
+    "dense_ids": [
+      "D210_C1",
+      "D223_C1",
+      "D445_C2",
+      "D360_C1",
+      "D336_C1"
+    ],
+    "bm25_recall": 0.0,
+    "dense_recall": 0.3333333333333333,
+    "bm25_rr": 0,
+    "dense_rr": 0.2
+  },
+  {
+    "query_id": "Q056",
+    "query": "Why is a time-dependent Fourier transform needed for time-varying spectral content?",
+    "relevant_ids": [
+      "D9_C1"
+    ],
+    "bm25_ids": [
+      "D9_C1",
+      "D10_C1",
+      "D219_C1",
+      "D232_C1",
+      "D11_C1"
+    ],
+    "dense_ids": [
+      "D10_C1",
+      "D9_C1",
+      "D18_C1",
+      "D12_C1",
+      "D15_C1"
+    ],
+    "bm25_recall": 1.0,
+    "dense_recall": 1.0,
+    "bm25_rr": 1.0,
+    "dense_rr": 0.5
+  }
+]
