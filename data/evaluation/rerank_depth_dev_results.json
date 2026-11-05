@@ -1,0 +1,833 @@
+[
+  {
+    "query_id": "Q001",
+    "query": "What is signal processing and what tasks does it perform?",
+    "relevant_ids": [
+      "D21_C1"
+    ],
+    "candidate_count": 34,
+    "relevant_in_pool": 1,
+    "rankings": {
+      "rrf": [
+        "D21_C1",
+        "D20_C1",
+        "D30_C1",
+        "D29_C1",
+        "D246_C1"
+      ],
+      "ce_5": [
+        "D21_C1",
+        "D20_C1",
+        "D29_C1",
+        "D30_C1",
+        "D246_C1"
+      ],
+      "ce_10": [
+        "D21_C1",
+        "D20_C1",
+        "D29_C1",
+        "D30_C1",
+        "D246_C1"
+      ],
+      "ce_20": [
+        "D21_C1",
+        "D20_C1",
+        "D29_C1",
+        "D30_C1",
+        "D26_C2"
+      ],
+      "ce_full": [
+        "D21_C1",
+        "D20_C1",
+        "D29_C1",
+        "D30_C1",
+        "D26_C2"
+      ]
+    },
+    "metrics": {
+      "rrf": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_5": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_10": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_20": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_full": {
+        "recall": 1.0,
+        "rr": 1.0
+      }
+    }
+  },
+  {
+    "query_id": "Q006",
+    "query": "How can a sequence be represented using shifted unit impulses?",
+    "relevant_ids": [
+      "D36_C1"
+    ],
+    "candidate_count": 36,
+    "relevant_in_pool": 1,
+    "rankings": {
+      "rrf": [
+        "D36_C1",
+        "D108_C1",
+        "D115_C1",
+        "D424_C1",
+        "D297_C1"
+      ],
+      "ce_5": [
+        "D36_C1",
+        "D108_C1",
+        "D115_C1",
+        "D297_C1",
+        "D424_C1"
+      ],
+      "ce_10": [
+        "D36_C1",
+        "D108_C1",
+        "D115_C1",
+        "D35_C1",
+        "D297_C1"
+      ],
+      "ce_20": [
+        "D36_C1",
+        "D108_C1",
+        "D115_C1",
+        "D38_C1",
+        "D35_C1"
+      ],
+      "ce_full": [
+        "D285_C1",
+        "D36_C1",
+        "D108_C1",
+        "D115_C1",
+        "D67_C1"
+      ]
+    },
+    "metrics": {
+      "rrf": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_5": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_10": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_20": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_full": {
+        "recall": 1.0,
+        "rr": 0.5
+      }
+    }
+  },
+  {
+    "query_id": "Q011",
+    "query": "What are the additivity and homogeneity conditions for a linear system?",
+    "relevant_ids": [
+      "D46_C1",
+      "D56_C1"
+    ],
+    "candidate_count": 28,
+    "relevant_in_pool": 2,
+    "rankings": {
+      "rrf": [
+        "D46_C1",
+        "D56_C1",
+        "D87_C1",
+        "D99_C1",
+        "D100_C1"
+      ],
+      "ce_5": [
+        "D87_C1",
+        "D99_C1",
+        "D100_C1",
+        "D46_C1",
+        "D56_C1"
+      ],
+      "ce_10": [
+        "D87_C1",
+        "D99_C1",
+        "D100_C1",
+        "D88_C1",
+        "D46_C1"
+      ],
+      "ce_20": [
+        "D87_C1",
+        "D99_C1",
+        "D100_C1",
+        "D88_C1",
+        "D46_C1"
+      ],
+      "ce_full": [
+        "D87_C1",
+        "D99_C1",
+        "D100_C1",
+        "D88_C1",
+        "D46_C1"
+      ]
+    },
+    "metrics": {
+      "rrf": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_5": {
+        "recall": 1.0,
+        "rr": 0.25
+      },
+      "ce_10": {
+        "recall": 0.5,
+        "rr": 0.2
+      },
+      "ce_20": {
+        "recall": 0.5,
+        "rr": 0.2
+      },
+      "ce_full": {
+        "recall": 0.5,
+        "rr": 0.2
+      }
+    }
+  },
+  {
+    "query_id": "Q016",
+    "query": "What impulse-response condition is necessary and sufficient for LTI causality?",
+    "relevant_ids": [
+      "D82_C1",
+      "D91_C1"
+    ],
+    "candidate_count": 29,
+    "relevant_in_pool": 2,
+    "rankings": {
+      "rrf": [
+        "D82_C1",
+        "D272_C1",
+        "D91_C1",
+        "D427_C1",
+        "D77_C1"
+      ],
+      "ce_5": [
+        "D82_C1",
+        "D91_C1",
+        "D427_C1",
+        "D272_C1",
+        "D77_C1"
+      ],
+      "ce_10": [
+        "D82_C1",
+        "D91_C1",
+        "D427_C1",
+        "D272_C1",
+        "D67_C1"
+      ],
+      "ce_20": [
+        "D82_C1",
+        "D91_C1",
+        "D427_C1",
+        "D272_C1",
+        "D83_C1"
+      ],
+      "ce_full": [
+        "D82_C1",
+        "D91_C1",
+        "D427_C1",
+        "D272_C1",
+        "D83_C1"
+      ]
+    },
+    "metrics": {
+      "rrf": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_5": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_10": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_20": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_full": {
+        "recall": 1.0,
+        "rr": 1.0
+      }
+    }
+  },
+  {
+    "query_id": "Q021",
+    "query": "What are the DTFT and inverse DTFT formulas for a discrete-time sequence?",
+    "relevant_ids": [
+      "D108_C1",
+      "D115_C1",
+      "D109_C1",
+      "D116_C1"
+    ],
+    "candidate_count": 38,
+    "relevant_in_pool": 2,
+    "rankings": {
+      "rrf": [
+        "D32_C1",
+        "D246_C1",
+        "D415_C1",
+        "D108_C1",
+        "D115_C1"
+      ],
+      "ce_5": [
+        "D108_C1",
+        "D115_C1",
+        "D32_C1",
+        "D415_C1",
+        "D246_C1"
+      ],
+      "ce_10": [
+        "D341_C1",
+        "D108_C1",
+        "D115_C1",
+        "D32_C1",
+        "D446_C1"
+      ],
+      "ce_20": [
+        "D341_C1",
+        "D108_C1",
+        "D115_C1",
+        "D424_C1",
+        "D32_C1"
+      ],
+      "ce_full": [
+        "D341_C1",
+        "D108_C1",
+        "D115_C1",
+        "D424_C1",
+        "D240_C1"
+      ]
+    },
+    "metrics": {
+      "rrf": {
+        "recall": 0.5,
+        "rr": 0.25
+      },
+      "ce_5": {
+        "recall": 0.5,
+        "rr": 1.0
+      },
+      "ce_10": {
+        "recall": 0.5,
+        "rr": 0.5
+      },
+      "ce_20": {
+        "recall": 0.5,
+        "rr": 0.5
+      },
+      "ce_full": {
+        "recall": 0.5,
+        "rr": 0.5
+      }
+    }
+  },
+  {
+    "query_id": "Q026",
+    "query": "What is the modulation or frequency-shift property of the DTFT?",
+    "relevant_ids": [
+      "D133_C1",
+      "D141_C1"
+    ],
+    "candidate_count": 36,
+    "relevant_in_pool": 2,
+    "rankings": {
+      "rrf": [
+        "D133_C1",
+        "D17_C1",
+        "D344_C1",
+        "D141_C1",
+        "D417_C1"
+      ],
+      "ce_5": [
+        "D141_C1",
+        "D344_C1",
+        "D133_C1",
+        "D17_C1",
+        "D417_C1"
+      ],
+      "ce_10": [
+        "D445_C2",
+        "D141_C1",
+        "D344_C1",
+        "D133_C1",
+        "D17_C1"
+      ],
+      "ce_20": [
+        "D446_C1",
+        "D445_C2",
+        "D2_C1",
+        "D141_C1",
+        "D344_C1"
+      ],
+      "ce_full": [
+        "D446_C1",
+        "D445_C2",
+        "D2_C1",
+        "D341_C1",
+        "D6_C1"
+      ]
+    },
+    "metrics": {
+      "rrf": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_5": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_10": {
+        "recall": 1.0,
+        "rr": 0.5
+      },
+      "ce_20": {
+        "recall": 0.5,
+        "rr": 0.25
+      },
+      "ce_full": {
+        "recall": 0.0,
+        "rr": 0
+      }
+    }
+  },
+  {
+    "query_id": "Q031",
+    "query": "What is the definition of the z-transform?",
+    "relevant_ids": [
+      "D160_C1",
+      "D170_C1"
+    ],
+    "candidate_count": 33,
+    "relevant_in_pool": 2,
+    "rankings": {
+      "rrf": [
+        "D160_C1",
+        "D170_C1",
+        "D161_C1",
+        "D273_C1",
+        "D171_C1"
+      ],
+      "ce_5": [
+        "D160_C1",
+        "D170_C1",
+        "D273_C1",
+        "D161_C1",
+        "D171_C1"
+      ],
+      "ce_10": [
+        "D160_C1",
+        "D170_C1",
+        "D166_C2",
+        "D273_C1",
+        "D177_C2"
+      ],
+      "ce_20": [
+        "D160_C1",
+        "D170_C1",
+        "D159_C1",
+        "D169_C1",
+        "D166_C2"
+      ],
+      "ce_full": [
+        "D160_C1",
+        "D170_C1",
+        "D159_C1",
+        "D169_C1",
+        "D166_C2"
+      ]
+    },
+    "metrics": {
+      "rrf": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_5": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_10": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_20": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_full": {
+        "recall": 1.0,
+        "rr": 1.0
+      }
+    }
+  },
+  {
+    "query_id": "Q036",
+    "query": "What is the convolution property of the z-transform?",
+    "relevant_ids": [
+      "D193_C1",
+      "D202_C1",
+      "D194_C1",
+      "D203_C1"
+    ],
+    "candidate_count": 29,
+    "relevant_in_pool": 4,
+    "rankings": {
+      "rrf": [
+        "D193_C1",
+        "D194_C1",
+        "D202_C1",
+        "D203_C1",
+        "D160_C1"
+      ],
+      "ce_5": [
+        "D194_C1",
+        "D203_C1",
+        "D193_C1",
+        "D202_C1",
+        "D160_C1"
+      ],
+      "ce_10": [
+        "D194_C1",
+        "D203_C1",
+        "D193_C1",
+        "D202_C1",
+        "D160_C1"
+      ],
+      "ce_20": [
+        "D194_C1",
+        "D203_C1",
+        "D193_C1",
+        "D202_C1",
+        "D160_C1"
+      ],
+      "ce_full": [
+        "D194_C1",
+        "D203_C1",
+        "D193_C1",
+        "D202_C1",
+        "D160_C1"
+      ]
+    },
+    "metrics": {
+      "rrf": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_5": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_10": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_20": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_full": {
+        "recall": 1.0,
+        "rr": 1.0
+      }
+    }
+  },
+  {
+    "query_id": "Q041",
+    "query": "What is decimation and when does it cause aliasing?",
+    "relevant_ids": [
+      "D261_C1",
+      "D255_C1"
+    ],
+    "candidate_count": 34,
+    "relevant_in_pool": 2,
+    "rankings": {
+      "rrf": [
+        "D261_C1",
+        "D256_C1",
+        "D255_C1",
+        "D417_C1",
+        "D370_C1"
+      ],
+      "ce_5": [
+        "D261_C1",
+        "D370_C1",
+        "D256_C1",
+        "D255_C1",
+        "D417_C1"
+      ],
+      "ce_10": [
+        "D261_C1",
+        "D370_C1",
+        "D256_C1",
+        "D255_C1",
+        "D371_C1"
+      ],
+      "ce_20": [
+        "D261_C1",
+        "D370_C1",
+        "D256_C1",
+        "D368_C1",
+        "D255_C1"
+      ],
+      "ce_full": [
+        "D261_C1",
+        "D370_C1",
+        "D369_C1",
+        "D256_C1",
+        "D368_C1"
+      ]
+    },
+    "metrics": {
+      "rrf": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_5": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_10": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_20": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_full": {
+        "recall": 0.5,
+        "rr": 1.0
+      }
+    }
+  },
+  {
+    "query_id": "Q046",
+    "query": "What distinguishes minimum-phase systems?",
+    "relevant_ids": [
+      "D297_C1",
+      "D298_C1",
+      "D299_C1"
+    ],
+    "candidate_count": 28,
+    "relevant_in_pool": 3,
+    "rankings": {
+      "rrf": [
+        "D300_C1",
+        "D294_C1",
+        "D299_C1",
+        "D297_C1",
+        "D302_C1"
+      ],
+      "ce_5": [
+        "D294_C1",
+        "D300_C1",
+        "D297_C1",
+        "D299_C1",
+        "D302_C1"
+      ],
+      "ce_10": [
+        "D294_C1",
+        "D300_C1",
+        "D297_C1",
+        "D299_C1",
+        "D298_C1"
+      ],
+      "ce_20": [
+        "D294_C1",
+        "D300_C1",
+        "D297_C1",
+        "D299_C1",
+        "D298_C1"
+      ],
+      "ce_full": [
+        "D294_C1",
+        "D300_C1",
+        "D297_C1",
+        "D299_C1",
+        "D298_C1"
+      ]
+    },
+    "metrics": {
+      "rrf": {
+        "recall": 0.6666666666666666,
+        "rr": 0.3333333333333333
+      },
+      "ce_5": {
+        "recall": 0.6666666666666666,
+        "rr": 0.3333333333333333
+      },
+      "ce_10": {
+        "recall": 1.0,
+        "rr": 0.3333333333333333
+      },
+      "ce_20": {
+        "recall": 1.0,
+        "rr": 0.3333333333333333
+      },
+      "ce_full": {
+        "recall": 1.0,
+        "rr": 0.3333333333333333
+      }
+    }
+  },
+  {
+    "query_id": "Q051",
+    "query": "How is the DFT obtained by sampling the DTFT of a finite-duration signal?",
+    "relevant_ids": [
+      "D336_C1",
+      "D337_C1",
+      "D338_C1"
+    ],
+    "candidate_count": 32,
+    "relevant_in_pool": 1,
+    "rankings": {
+      "rrf": [
+        "D210_C1",
+        "D223_C1",
+        "D336_C1",
+        "D240_C1",
+        "D445_C2"
+      ],
+      "ce_5": [
+        "D210_C1",
+        "D223_C1",
+        "D445_C2",
+        "D336_C1",
+        "D240_C1"
+      ],
+      "ce_10": [
+        "D445_C1",
+        "D210_C1",
+        "D223_C1",
+        "D445_C2",
+        "D424_C1"
+      ],
+      "ce_20": [
+        "D6_C1",
+        "D445_C1",
+        "D210_C1",
+        "D223_C1",
+        "D360_C1"
+      ],
+      "ce_full": [
+        "D6_C1",
+        "D445_C1",
+        "D210_C1",
+        "D223_C1",
+        "D360_C1"
+      ]
+    },
+    "metrics": {
+      "rrf": {
+        "recall": 0.3333333333333333,
+        "rr": 0.3333333333333333
+      },
+      "ce_5": {
+        "recall": 0.3333333333333333,
+        "rr": 0.25
+      },
+      "ce_10": {
+        "recall": 0.0,
+        "rr": 0
+      },
+      "ce_20": {
+        "recall": 0.0,
+        "rr": 0
+      },
+      "ce_full": {
+        "recall": 0.0,
+        "rr": 0
+      }
+    }
+  },
+  {
+    "query_id": "Q056",
+    "query": "Why is a time-dependent Fourier transform needed for time-varying spectral content?",
+    "relevant_ids": [
+      "D9_C1"
+    ],
+    "candidate_count": 28,
+    "relevant_in_pool": 1,
+    "rankings": {
+      "rrf": [
+        "D9_C1",
+        "D10_C1",
+        "D18_C1",
+        "D15_C1",
+        "D11_C1"
+      ],
+      "ce_5": [
+        "D9_C1",
+        "D10_C1",
+        "D18_C1",
+        "D11_C1",
+        "D15_C1"
+      ],
+      "ce_10": [
+        "D9_C1",
+        "D10_C1",
+        "D13_C1",
+        "D18_C1",
+        "D11_C1"
+      ],
+      "ce_20": [
+        "D9_C1",
+        "D10_C1",
+        "D13_C1",
+        "D18_C1",
+        "D11_C1"
+      ],
+      "ce_full": [
+        "D9_C1",
+        "D10_C1",
+        "D13_C1",
+        "D18_C1",
+        "D11_C1"
+      ]
+    },
+    "metrics": {
+      "rrf": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_5": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_10": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_20": {
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      "ce_full": {
+        "recall": 1.0,
+        "rr": 1.0
+      }
+    }
+  }
+]
