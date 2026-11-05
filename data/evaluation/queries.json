@@ -1,0 +1,350 @@
+[
+  {
+    "query_id": "Q001",
+    "query": "What is signal processing and what tasks does it perform?",
+    "topic": "intro",
+    "split": "dev"
+  },
+  {
+    "query_id": "Q002",
+    "query": "What is the difference between analog and digital signals?",
+    "topic": "intro",
+    "split": "test"
+  },
+  {
+    "query_id": "Q003",
+    "query": "What is the difference between sampling and quantisation in A/D conversion?",
+    "topic": "intro",
+    "split": "test"
+  },
+  {
+    "query_id": "Q004",
+    "query": "What are the main advantages of digital signal processing over analog processing?",
+    "topic": "intro",
+    "split": "test"
+  },
+  {
+    "query_id": "Q005",
+    "query": "What is a discrete-time signal and how is it obtained by sampling?",
+    "topic": "signals",
+    "split": "test"
+  },
+  {
+    "query_id": "Q006",
+    "query": "How can a sequence be represented using shifted unit impulses?",
+    "topic": "signals",
+    "split": "dev"
+  },
+  {
+    "query_id": "Q007",
+    "query": "What is the relationship between the unit step and unit impulse sequences?",
+    "topic": "signals",
+    "split": "test"
+  },
+  {
+    "query_id": "Q008",
+    "query": "How are time delay and time reversal defined for discrete-time sequences?",
+    "topic": "signals",
+    "split": "test"
+  },
+  {
+    "query_id": "Q009",
+    "query": "What does it mean for a discrete-time system to be memoryless?",
+    "topic": "systems",
+    "split": "test"
+  },
+  {
+    "query_id": "Q010",
+    "query": "What does causality mean for a discrete-time system?",
+    "topic": "systems",
+    "split": "test"
+  },
+  {
+    "query_id": "Q011",
+    "query": "What are the additivity and homogeneity conditions for a linear system?",
+    "topic": "systems",
+    "split": "dev"
+  },
+  {
+    "query_id": "Q012",
+    "query": "How can we test whether a system is time invariant?",
+    "topic": "systems",
+    "split": "test"
+  },
+  {
+    "query_id": "Q013",
+    "query": "What is BIBO stability of a discrete-time system?",
+    "topic": "systems",
+    "split": "test"
+  },
+  {
+    "query_id": "Q014",
+    "query": "How does convolution determine the output of an LTI system?",
+    "topic": "lti",
+    "split": "test"
+  },
+  {
+    "query_id": "Q015",
+    "query": "How do parallel and cascade connections of LTI systems differ?",
+    "topic": "lti",
+    "split": "test"
+  },
+  {
+    "query_id": "Q016",
+    "query": "What impulse-response condition is necessary and sufficient for LTI causality?",
+    "topic": "lti",
+    "split": "dev"
+  },
+  {
+    "query_id": "Q017",
+    "query": "What impulse-response condition guarantees BIBO stability for an LTI system?",
+    "topic": "lti",
+    "split": "test"
+  },
+  {
+    "query_id": "Q018",
+    "query": "What does initial rest mean for an LCCDE system?",
+    "topic": "lti",
+    "split": "test"
+  },
+  {
+    "query_id": "Q019",
+    "query": "Why are complex exponentials eigenfunctions of LTI systems?",
+    "topic": "dtft",
+    "split": "test"
+  },
+  {
+    "query_id": "Q020",
+    "query": "How is the frequency response of an LTI system defined from its impulse response?",
+    "topic": "dtft",
+    "split": "test"
+  },
+  {
+    "query_id": "Q021",
+    "query": "What are the DTFT and inverse DTFT formulas for a discrete-time sequence?",
+    "topic": "dtft",
+    "split": "dev"
+  },
+  {
+    "query_id": "Q022",
+    "query": "Under what sufficient condition does the DTFT converge uniformly?",
+    "topic": "dtft",
+    "split": "test"
+  },
+  {
+    "query_id": "Q023",
+    "query": "How does square summability affect DTFT convergence?",
+    "topic": "dtft",
+    "split": "test"
+  },
+  {
+    "query_id": "Q024",
+    "query": "What symmetry does the DTFT of a real-valued sequence obey?",
+    "topic": "dtft",
+    "split": "test"
+  },
+  {
+    "query_id": "Q025",
+    "query": "What is the time-shift property of the DTFT?",
+    "topic": "dtft",
+    "split": "test"
+  },
+  {
+    "query_id": "Q026",
+    "query": "What is the modulation or frequency-shift property of the DTFT?",
+    "topic": "dtft",
+    "split": "dev"
+  },
+  {
+    "query_id": "Q027",
+    "query": "What does Parseval's theorem say for discrete-time signals?",
+    "topic": "dtft",
+    "split": "test"
+  },
+  {
+    "query_id": "Q028",
+    "query": "How does time-domain convolution relate to multiplication in the DTFT domain?",
+    "topic": "dtft",
+    "split": "test"
+  },
+  {
+    "query_id": "Q029",
+    "query": "What is the DTFT pair of an exponentially decaying causal sequence?",
+    "topic": "dtft",
+    "split": "test"
+  },
+  {
+    "query_id": "Q030",
+    "query": "What is the DTFT of a sinc sequence?",
+    "topic": "dtft",
+    "split": "test"
+  },
+  {
+    "query_id": "Q031",
+    "query": "What is the definition of the z-transform?",
+    "topic": "ztransform",
+    "split": "dev"
+  },
+  {
+    "query_id": "Q032",
+    "query": "What is the region of convergence (ROC) of a z-transform?",
+    "topic": "ztransform",
+    "split": "test"
+  },
+  {
+    "query_id": "Q033",
+    "query": "How does the z-transform ROC differ for right-sided and left-sided sequences?",
+    "topic": "ztransform",
+    "split": "test"
+  },
+  {
+    "query_id": "Q034",
+    "query": "How is the inverse z-transform computed using partial-fraction expansion?",
+    "topic": "ztransform",
+    "split": "test"
+  },
+  {
+    "query_id": "Q035",
+    "query": "What is the time-reversal property of the z-transform?",
+    "topic": "ztransform",
+    "split": "test"
+  },
+  {
+    "query_id": "Q036",
+    "query": "What is the convolution property of the z-transform?",
+    "topic": "ztransform",
+    "split": "dev"
+  },
+  {
+    "query_id": "Q037",
+    "query": "What is the Nyquist sampling theorem for a bandlimited continuous-time signal?",
+    "topic": "sampling",
+    "split": "test"
+  },
+  {
+    "query_id": "Q038",
+    "query": "What causes aliasing when a continuous-time signal is sampled too slowly?",
+    "topic": "sampling",
+    "split": "test"
+  },
+  {
+    "query_id": "Q039",
+    "query": "How can a bandlimited continuous-time signal be reconstructed from its samples?",
+    "topic": "sampling",
+    "split": "test"
+  },
+  {
+    "query_id": "Q040",
+    "query": "What is the equivalent continuous-time system for discrete-time processing?",
+    "topic": "sampling",
+    "split": "test"
+  },
+  {
+    "query_id": "Q041",
+    "query": "What is decimation and when does it cause aliasing?",
+    "topic": "sampling",
+    "split": "dev"
+  },
+  {
+    "query_id": "Q042",
+    "query": "How does interpolation increase a discrete-time signal's sampling rate?",
+    "topic": "sampling",
+    "split": "test"
+  },
+  {
+    "query_id": "Q043",
+    "query": "How can a sampling rate be changed by a rational factor?",
+    "topic": "sampling",
+    "split": "test"
+  },
+  {
+    "query_id": "Q044",
+    "query": "What is group delay and how is it defined?",
+    "topic": "filters",
+    "split": "test"
+  },
+  {
+    "query_id": "Q045",
+    "query": "What is the defining magnitude-response property of an all-pass system?",
+    "topic": "filters",
+    "split": "test"
+  },
+  {
+    "query_id": "Q046",
+    "query": "What distinguishes minimum-phase systems?",
+    "topic": "filters",
+    "split": "dev"
+  },
+  {
+    "query_id": "Q047",
+    "query": "What conditions give an FIR filter generalised linear phase?",
+    "topic": "filters",
+    "split": "test"
+  },
+  {
+    "query_id": "Q048",
+    "query": "Why is impulse invariance unsuitable for high-pass and band-stop filters?",
+    "topic": "filters",
+    "split": "test"
+  },
+  {
+    "query_id": "Q049",
+    "query": "Why does the bilinear transform avoid aliasing in filter design?",
+    "topic": "filters",
+    "split": "test"
+  },
+  {
+    "query_id": "Q050",
+    "query": "How are FIR filters designed using windowing?",
+    "topic": "filters",
+    "split": "test"
+  },
+  {
+    "query_id": "Q051",
+    "query": "How is the DFT obtained by sampling the DTFT of a finite-duration signal?",
+    "topic": "dft",
+    "split": "dev"
+  },
+  {
+    "query_id": "Q052",
+    "query": "What is circular convolution and how does it relate to multiplication of DFTs?",
+    "topic": "dft",
+    "split": "test"
+  },
+  {
+    "query_id": "Q053",
+    "query": "How is linear convolution computed using a DFT with zero-padding?",
+    "topic": "dft",
+    "split": "test"
+  },
+  {
+    "query_id": "Q054",
+    "query": "What is the overlap-add algorithm for fast convolution?",
+    "topic": "dft",
+    "split": "test"
+  },
+  {
+    "query_id": "Q055",
+    "query": "What is the basic idea behind the decimation-in-time FFT?",
+    "topic": "dft",
+    "split": "test"
+  },
+  {
+    "query_id": "Q056",
+    "query": "Why is a time-dependent Fourier transform needed for time-varying spectral content?",
+    "topic": "time_frequency",
+    "split": "dev"
+  },
+  {
+    "query_id": "Q057",
+    "query": "What is the time-frequency resolution tradeoff in windowed Fourier analysis?",
+    "topic": "time_frequency",
+    "split": "test"
+  },
+  {
+    "query_id": "Q058",
+    "query": "How can time-dependent Fourier analysis be interpreted as a filter bank?",
+    "topic": "time_frequency",
+    "split": "test"
+  }
+]

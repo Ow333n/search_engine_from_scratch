@@ -11,3 +11,11 @@ wheels/
 
 data/pdfs/
 .env
+# Local DSP course materials
+/data/pdfs/
+
+# Extracted course content
+/data/evaluation/dsp_chunks.json
+
+# Annotation review data (inspect before publishing)
+/data/evaluation/annotation_review.csv

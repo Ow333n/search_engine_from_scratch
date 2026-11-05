@@ -1,0 +1,50 @@
+{
+  "dataset_name": "DSP Search Relevance Evaluation - Draft",
+  "created_on": "2026-11-03",
+  "status": "proposed_labels_pending_human_review",
+  "source_file": "dsp_chunks.json (uploaded by user, 100-word chunks, 20-word overlap)",
+  "corpus": {
+    "pdf_count": 50,
+    "nonempty_page_records": 447,
+    "chunk_count": 468,
+    "unique_chunk_id_count": 468
+  },
+  "queries": {
+    "count": 58,
+    "dev": 12,
+    "test": 46,
+    "topics": {
+      "intro": 4,
+      "signals": 4,
+      "systems": 5,
+      "lti": 5,
+      "dtft": 12,
+      "ztransform": 6,
+      "sampling": 7,
+      "filters": 7,
+      "dft": 5,
+      "time_frequency": 3
+    }
+  },
+  "proposed_judgements": {
+    "count": 123,
+    "unique_document_ids": 118,
+    "by_grade": {
+      "2": 37,
+      "3": 86
+    },
+    "unjudged_documents": "All other corpus chunks are UNJUDGED, not presumed irrelevant"
+  },
+  "evaluation_conventions": {
+    "binary_relevant_threshold": 2,
+    "graded_relevance_scale": "0 irrelevant, 1 marginal, 2 useful partial, 3 directly sufficient; current proposal includes only 2 and 3",
+    "idcg": "Compute from all reviewed qrels per query, NOT only retrieved top-K",
+    "warning": "Qrels are incomplete / unreviewed. Do not publish Recall@K or NDCG@K as unbiased, definitive search-quality metrics."
+  },
+  "caveats": [
+    "Some lecture PDFs appear to be near-duplicate slide variants; all versions remain in this corpus and require pooled relevance judgement.",
+    "PDF text extraction degrades some mathematical expressions; review source page to confirm query answerability.",
+    "Proposed positive qrels cover verified-looking source-page candidates, not an exhaustive judgement pool.",
+    "Public branch contains queries, document identifiers and source/page pointers, not full course PDFs or chunk text."
+  ]
+}
